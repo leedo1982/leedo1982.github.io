@@ -1,17 +1,19 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: Leedo - 개발자 이도원
+url: https://leedo1982.github.io
 baseurl: ""
-description: >
-    기계인간 블로그
+description: 
+    Leedo_이도원 블로그
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
+email: domo18@gmail.com
+author: Leedowon
+profile: 리부트 
+github_username: leedo1982
 comment-support: utterances
+disqus_shortname: leedo1982
+
+
 
 # Build settings
 plugins:
@@ -38,23 +40,24 @@ collections:
 
 # Comment Service
 disqus:
-  id: johngrib
-  shortname: johngrib
-utterances:
-  repo: johngrib/johngrib.github.io
-  issue-term: pathname
-  label: Comment
-  branch: master
+  id: leedo1982
+  shortname: leedo1982
 
 google_analytics:
-  ua: UA-110224147-1
+  ua: UA-116747029-1
 
 google_adsense:
   client: ca-pub-3675948545737694
 
-blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
-edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
-issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
+utterances:
+  repo: leedo1982/leedo1982.github.io
+  issue-term: pathname
+  label: Comment
+  branch: master
+
+blame: "https://github.com/leedo1982/leedo1982.github.io/blame/master/_wiki"
+edit: "https://github.com/leedo1982/leedo1982.github.io/edit/master/_wiki"
+issue: "https://github.com/leedo1982/leedo1982.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
