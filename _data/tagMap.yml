@@ -1,0 +1,8 @@
+'2019':
+    - {fileName: 2019_BOOK_LIST}
+book:
+    - {fileName: 2019_BOOK_LIST}
+how-to:
+    - {fileName: how-to}
+latex:
+    - {fileName: mathjax-latex}

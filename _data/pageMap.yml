@@ -1,0 +1,1136 @@
+2018-04-03-First-Blog:
+    type: blog
+    title: 'sample title'
+    summary: 'sample summary'
+    parent: null
+    url: /blog/2017/04/02/First-Blog
+    updated: '2017-04-02 12:15:32 +0900'
+    children: []
+2018-04-17-the-great-primary-key:
+    type: blog
+    title: 'The Great Primary Key'
+    summary: 'Integer vs GUID'
+    parent: null
+    url: /blog/2018/04/17/the-great-primary-key
+    updated: '2018-04-18 07:45:13 +0900'
+    children: []
+2018-04-19-rest-api-version:
+    type: blog
+    title: 'rest api version'
+    summary: restful
+    parent: null
+    url: /blog/2018/04/19/rest-api-version
+    updated: '2018-04-19 10:10:55 +0900'
+    children: []
+2018-05-08-CORS:
+    type: blog
+    title: 'No ''Access-Control-Allow-Origin'' header is present on the requested resource'
+    summary: cors
+    parent: null
+    url: /blog/2018/05/08/CORS
+    updated: '2018-05-09 09:16:03 +0900'
+    children: []
+2018-05-09-Injection:
+    type: blog
+    title: 'Field Injection vs Constructor Injection in @Autowired'
+    summary: 'spring injection'
+    parent: null
+    url: /blog/2018/05/09/Injection
+    updated: '2018-05-09 14:41:38 +0900'
+    children: []
+2018-05-10-Agile:
+    type: blog
+    title: '애자일 그것이 궁금하다.'
+    summary: agile
+    parent: null
+    url: /blog/2018/05/10/Agile
+    updated: '2018-05-10 14:00:19 +0900'
+    children: []
+2018-10-09-Saml-Oauth:
+    type: blog
+    title: 'The Difference Between SAML 2.0 and OAuth 2.0'
+    summary: ""
+    parent: null
+    url: /blog/2018/10/09/Saml-Oauth
+    updated: '2018-10-10 07:04:40 +0900'
+    children: []
+2018_BOOK_LIST:
+    type: wiki
+    title: '2018 Book Review'
+    summary: book
+    parent: ""
+    url: /wiki/2018_BOOK_LIST
+    updated: '2020-06-26 07:45:57 +0900'
+    children: [배민다움, Building_Microservices, Nudge, The_Essence_of_Object_Orientation]
+2018_REVIEW:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: ""
+    url: /wiki/2018_REVIEW
+    updated: '2019-01-01 15:46:11 +0900'
+    children: []
+2019_BOOK_LIST:
+    type: wiki
+    title: '2019 Book List'
+    summary: ""
+    parent: ""
+    url: /wiki/2019_BOOK_LIST
+    updated: '2019-01-01 15:46:28 +0900'
+    children: []
+2019-PLAN-6MONTH:
+    type: wiki
+    title: '무엇을 할것인가.(6month)'
+    summary: ""
+    parent: ""
+    url: /wiki/2019-PLAN-6MONTH
+    updated: '2019-03-16 12:09:17 +0900'
+    children: []
+2020_BOOK_LIST:
+    type: wiki
+    title: '2020 Book List'
+    summary: ""
+    parent: ""
+    url: /wiki/2020_BOOK_LIST
+    updated: '2020-06-09 14:40:13 +0900'
+    children: []
+배민다움:
+    type: wiki
+    title: 배민다움
+    summary: '브랜딩 이야기'
+    parent: 2018_BOOK_LIST
+    url: /wiki/배민다움
+    updated: '2018-05-27 15:56:51 +0900'
+    children: []
+알기쉬운미적분:
+    type: wiki
+    title: '알기쉬운 미적분'
+    summary: '알기 쉽지 않은 미적분'
+    parent: 2018_BOOK_KIST
+    url: /wiki/알기쉬운미적분
+    updated: '2018-05-28 17:33:17 +0900'
+    children: []
+연관관계를:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: ""
+    url: /wiki/연관관계를
+    updated: '2020-06-26 07:47:53 +0900'
+    children: []
+완벽한_공부법:
+    type: wiki
+    title: '완벽한 공부법'
+    summary: books
+    parent: ""
+    url: /wiki/완벽한_공부법
+    updated: '2018-05-11 10:59:01 +0900'
+    children: []
+일취월장:
+    type: wiki
+    title: '일취월장을 읽고'
+    summary: '일을 성취하여 월등히 성장한다.'
+    parent: 2018_BOOK_KIST
+    url: /wiki/일취월장
+    updated: '2018-07-10 17:19:26 +0900'
+    children: []
+함께자라기-김창준:
+    type: wiki
+    title: '함께 자라기 - 김창준'
+    summary: ""
+    parent: ""
+    url: /wiki/함께자라기-김창준
+    updated: '2019-01-01 21:29:46 +0900'
+    children: []
+Abstract_Factory:
+    type: wiki
+    title: Abstract_Factory
+    summary: '관련 부품을 조햅해서 제품 만들기'
+    parent: Design_Pattern
+    url: /wiki/Abstract_Factory
+    updated: '2019-02-09 20:09:00 +0900'
+    children: []
+ACCESS_CONTROL:
+    type: wiki
+    title: 'ACCESS CONTROL'
+    summary: 접근제어
+    parent: ""
+    url: /wiki/ACCESS_CONTROL
+    updated: '2018-10-28 16:29:01 +0900'
+    children: []
+Amazon_Book_100:
+    type: wiki
+    title: 'AMAZON 100 Books to Read in a Lifetime'
+    summary: 'book wish list'
+    parent: ""
+    url: /wiki/Amazon_Book_100
+    updated: '2018-07-02 13:06:03 +0900'
+    children: []
+Aogorism:
+    type: wiki
+    title: 'Algorism 관련'
+    summary: algo
+    parent: index
+    url: /wiki/Aogorism
+    updated: '2019-02-09 11:21:03 +0900'
+    children: [DOGORISM1]
+Apache_Shiro_WildcardPermission:
+    type: wiki
+    title: 'Apache Shiro WildcardPermission'
+    summary: ""
+    parent: ""
+    url: /wiki/Apache_Shiro_WildcardPermission
+    updated: '2018-10-11 10:57:13 +0900'
+    children: []
+AWS_ELB:
+    type: wiki
+    title: 'api 호출 한번성공? 한번실패?'
+    summary: 'elb 대상그룹을 잘보자.'
+    parent: ""
+    url: /wiki/AWS_ELB
+    updated: '2019-03-22 10:03:46 +0900'
+    children: []
+BinaryGap:
+    type: wiki
+    title: BinaryGap
+    summary: codility
+    parent: Coding
+    url: /wiki/BinaryGap
+    updated: '2018-06-02 10:28:23 +0900'
+    children: []
+Brackets:
+    type: wiki
+    title: Brackets
+    summary: codility
+    parent: Coding
+    url: /wiki/Brackets
+    updated: '2018-07-08 19:17:29 +0900'
+    children: []
+Building_Microservices:
+    type: wiki
+    title: '마이크로서비스 아키텍쳐 구축'
+    summary: Microservices
+    parent: 2018_BOOK_LIST
+    url: /wiki/Building_Microservices
+    updated: '2018-08-17 09:10:18 +0900'
+    children: []
+CODE_COMPLETE2:
+    type: wiki
+    title: 'CODE COMPLETE 2nd Edition'
+    summary: ""
+    parent: ""
+    url: /wiki/CODE_COMPLETE2
+    updated: '2019-01-22 07:51:29 +0900'
+    children: []
+Coding:
+    type: wiki
+    title: codility
+    summary: codility
+    parent: ""
+    url: /wiki/Coding
+    updated: '2018-07-09 17:43:08 +0900'
+    children: [BinaryGap, Brackets, CountDiv, CyclicRotation, Distinct, Fish, FrogJmp, FrogRiverOne, MaxCounter, MaxProductOfThree, MinAvgTwoSlice, MissingInteger, Nesting, NumberOfDiscIntersections, OddOccurrencesInArray, PermCheck, PermMissingElem, TapeEquilibrium, Triangle]
+CountDiv:
+    type: wiki
+    title: 'Count Div'
+    summary: codility
+    parent: Coding
+    url: /wiki/CountDiv
+    updated: '2018-06-04 10:10:11 +0900'
+    children: []
+CyclicRotation:
+    type: wiki
+    title: CyclicRotation
+    summary: codility
+    parent: Coding
+    url: /wiki/CyclicRotation
+    updated: '2018-06-02 10:28:36 +0900'
+    children: []
+Design_Pattern:
+    type: wiki
+    title: '디자인 패턴'
+    summary: ""
+    parent: ""
+    url: /wiki/Design_Pattern
+    updated: '2019-02-09 20:08:56 +0900'
+    children: [Abstract_Factory]
+dev_flow:
+    type: wiki
+    title: '개발 프로세스 관련'
+    summary: '안정적으로 확실하게 빠르게 개발하기'
+    parent: ""
+    url: /wiki/dev_flow
+    updated: '2018-05-28 16:18:05 +0900'
+    children: []
+Distinct:
+    type: wiki
+    title: Distinct
+    summary: codility
+    parent: Coding
+    url: /wiki/Distinct
+    updated: '2018-06-18 12:09:33 +0900'
+    children: []
+DOGORISM1:
+    type: wiki
+    title: 'REST API 최신버전을 관리하자'
+    summary: 'how to get lastest Rest API?'
+    parent: Aogorism
+    url: /wiki/DOGORISM1
+    updated: '2019-02-09 11:21:01 +0900'
+    children: []
+Domain:
+    type: wiki
+    title: Domain
+    summary: DDD
+    parent: Domain_Driven_Design
+    url: /wiki/Domain
+    updated: '2019-02-09 11:10:42 +0900'
+    children: []
+Domain_Driven_Design:
+    type: wiki
+    title: '도메인 주도 설계'
+    summary: DDD
+    parent: ""
+    url: /wiki/Domain_Driven_Design
+    updated: '2019-02-09 11:12:33 +0900'
+    children: [Domain, ENTITY, LAYERED_ARCHITECTURE, MODULE, SERVICE, SMART_UI, VALUE_OBJECT]
+DOMAIN_ISOLATION:
+    type: wiki
+    title: '04.도메인의 격리'
+    summary: ""
+    parent: ""
+    url: /wiki/DOMAIN_ISOLATION
+    updated: '2020-01-03 06:39:05 +0900'
+    children: []
+EFFECTIVE_JAVA:
+    type: wiki
+    title: 'Effective Java'
+    summary: '자바 교과서'
+    parent: ""
+    url: /wiki/EFFECTIVE_JAVA
+    updated: '2019-05-30 09:36:53 +0900'
+    children: [ITEM14, ITEM15, ITEM16, ITEM17, ITEM18, ITEM19, ITEM20, ITEM21, ITEM22, ITEM23, ITEM24, ITEM25, ITEM26, ITEM27, ITEM28, ITEM29, ITEM30, ITEM31, ITEM32, ITEM33, ITEM34, ITEM35, ITEM36, ITEM37, ITEM38, ITEM39, ITEM40, ITEM41, ITEM42, ITEM43, ITEM44, ITEM45, ITEM46, ITEM47, ITEM48, ITEM49, ITEM50, ITEM51, ITEM52, ITEM53, ITEM54, ITEM55, ITEM57, ITEM58]
+ENTITY:
+    type: wiki
+    title: Entity
+    summary: '엔티티, 참조객체라고도 함'
+    parent: Domain_Driven_Design
+    url: /wiki/ENTITY
+    updated: '2018-05-14 06:56:19 +0900'
+    children: []
+ESC_CTRL_CAPSLOCK:
+    type: wiki
+    title: 'MAC caps lock 을 escape + ctrl 로 사용해보자 (for VIM user)'
+    summary: 'MAC 도 해피해킹처럼'
+    parent: ""
+    url: /wiki/ESC_CTRL_CAPSLOCK
+    updated: '2018-04-15 12:06:57 +0900'
+    children: []
+Fish:
+    type: wiki
+    title: Fish
+    summary: Codility
+    parent: Coding
+    url: /wiki/Fish
+    updated: '2018-07-09 16:35:07 +0900'
+    children: []
+FluentEnglish:
+    type: wiki
+    title: 영어회화
+    summary: 'Fluent English'
+    parent: ""
+    url: /wiki/FluentEnglish
+    updated: '2018-06-10 19:38:05 +0900'
+    children: []
+FrogJmp:
+    type: wiki
+    title: FrogJmp
+    summary: codility
+    parent: Coding
+    url: /wiki/FrogJmp
+    updated: '2018-05-23 16:17:13 +0900'
+    children: []
+FrogRiverOne:
+    type: wiki
+    title: FrogRiverOne
+    summary: codility
+    parent: Coding
+    url: /wiki/FrogRiverOne
+    updated: '2018-06-02 10:29:15 +0900'
+    children: []
+GenomicRangeQuery:
+    type: wiki
+    title: GenomicRangeQuery
+    summary: codility
+    parent: coding
+    url: /wiki/GenomicRangeQuery
+    updated: '2018-06-09 17:25:19 +0900'
+    children: []
+GIT:
+    type: wiki
+    title: git
+    summary: ""
+    parent: ""
+    url: /wiki/GIT
+    updated: '2019-02-09 11:22:19 +0900'
+    children: []
+git_history:
+    type: wiki
+    title: 'Git 히스토리 단장하기'
+    summary: 'git history'
+    parent: git
+    url: /wiki/git_history
+    updated: '2019-02-09 11:24:10 +0900'
+    children: []
+git_log:
+    type: wiki
+    title: 'git log'
+    summary: '로그 검색'
+    parent: ""
+    url: /wiki/git_log
+    updated: '2018-06-11 06:16:28 +0900'
+    children: []
+git_merge:
+    type: wiki
+    title: 'git merge'
+    summary: '고급 Merge'
+    parent: git
+    url: /wiki/git_merge
+    updated: '2019-02-09 11:27:17 +0900'
+    children: []
+git_reset:
+    type: wiki
+    title: 'git reset'
+    summary: '명확히 알고가기'
+    parent: git
+    url: /wiki/git_reset
+    updated: '2019-02-09 11:24:25 +0900'
+    children: []
+grep:
+    type: wiki
+    title: 'Git grep'
+    summary: 검색하기
+    parent: git
+    url: /wiki/grep
+    updated: '2019-02-09 11:23:27 +0900'
+    children: []
+HAL:
+    type: wiki
+    title: 'Hypertext Application Language'
+    summary: HAL
+    parent: Spring
+    url: /wiki/HAL
+    updated: '2018-05-16 09:29:48 +0900'
+    children: []
+How_to_win_friends_and_influence_people:
+    type: wiki
+    title: 'How to win friends and influence people'
+    summary: 인간관계론
+    parent: ""
+    url: /wiki/How_to_win_friends_and_influence_people
+    updated: '2018-06-27 14:11:43 +0900'
+    children: []
+how-to:
+    type: wiki
+    title: 'HOW TO'
+    summary: null
+    parent: index
+    url: /wiki/how-to
+    updated: '2018-02-04 15:57:05 +0900'
+    children: [mathjax-latex]
+index:
+    type: wiki
+    title: wiki
+    summary: null
+    parent: null
+    url: /wiki/index
+    updated: '2020-06-09 14:40:11 +0900'
+    children: []
+ITEM14:
+    type: wiki
+    title: 'comparable 을 구현할지 고려하라.'
+    summary: comparable
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM14
+    updated: '2019-03-12 16:28:38 +0900'
+    children: []
+ITEM15:
+    type: wiki
+    title: '클래스와 멤버의 접근권한을 최소화 하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM15
+    updated: '2019-03-14 10:20:12 +0900'
+    children: []
+ITEM16:
+    type: wiki
+    title: 'public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM16
+    updated: '2019-03-15 09:44:16 +0900'
+    children: []
+ITEM17:
+    type: wiki
+    title: '변경가능성을 최소화하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM17
+    updated: '2019-03-18 10:02:18 +0900'
+    children: []
+ITEM18:
+    type: wiki
+    title: '상속보다는 컴포지션을 사용하라'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM18
+    updated: '2019-03-19 10:10:21 +0900'
+    children: []
+ITEM19:
+    type: wiki
+    title: '상속을 고려해 설계하고 문서화하라. 그러지 않았다면 상속을 금지하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM19
+    updated: '2019-03-20 14:06:23 +0900'
+    children: []
+ITEM20:
+    type: wiki
+    title: '추상 클래스보다는 인터페이스를 우선하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM20
+    updated: '2019-03-21 11:30:54 +0900'
+    children: []
+ITEM21:
+    type: wiki
+    title: '인터페이스는 구현하는 쪽을 생각해 설계하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM21
+    updated: '2019-03-22 10:26:21 +0900'
+    children: []
+ITEM22:
+    type: wiki
+    title: '인터페이스는 타입을 정의하는 용도로만 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM22
+    updated: '2019-03-25 09:50:45 +0900'
+    children: []
+ITEM23:
+    type: wiki
+    title: '태그 달린 클래스보다는 클래스 계층구조를 활용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM23
+    updated: '2019-03-25 12:41:12 +0900'
+    children: []
+ITEM24:
+    type: wiki
+    title: '멤버 클래스는 되도록 static 으로 만들어라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM24
+    updated: '2019-03-26 10:25:12 +0900'
+    children: []
+ITEM25:
+    type: wiki
+    title: '톱레벨 클래스는 한 파일에 하나만 담으라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM25
+    updated: '2019-03-27 09:46:46 +0900'
+    children: []
+ITEM26:
+    type: wiki
+    title: '로 타입은 사용하지 말라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM26
+    updated: '2019-03-28 09:58:06 +0900'
+    children: []
+ITEM27:
+    type: wiki
+    title: '비검사 경고를 제거하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM27
+    updated: '2019-03-29 10:01:29 +0900'
+    children: []
+ITEM28:
+    type: wiki
+    title: '배열보다는 리스트를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM28
+    updated: '2019-04-03 09:56:23 +0900'
+    children: []
+ITEM29:
+    type: wiki
+    title: '이왕이면 제네릭 타입으로 만들라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM29
+    updated: '2019-04-04 09:25:59 +0900'
+    children: []
+ITEM30:
+    type: wiki
+    title: '이왕이면 제네릭 메서드로 만들라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM30
+    updated: '2019-04-05 18:19:09 +0900'
+    children: []
+ITEM31:
+    type: wiki
+    title: '한정적 와일드 카드를 사용해 API 유연성을 높여라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM31
+    updated: '2019-04-08 16:07:15 +0900'
+    children: []
+ITEM32:
+    type: wiki
+    title: '제네릭과 가변이수를 함께 쓸때는 신중하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM32
+    updated: '2019-04-10 17:47:28 +0900'
+    children: []
+ITEM33:
+    type: wiki
+    title: '타입안전 이종 컨테이너를 고려하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM33
+    updated: '2019-04-11 10:03:39 +0900'
+    children: []
+ITEM34:
+    type: wiki
+    title: 'int 상수 대신 열거 타입을 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM34
+    updated: '2019-04-12 09:53:53 +0900'
+    children: []
+ITEM35:
+    type: wiki
+    title: 'ordinal 메서드 대신 인스턴스 필드를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM35
+    updated: '2019-04-15 10:01:50 +0900'
+    children: []
+ITEM36:
+    type: wiki
+    title: '비트필드 대신 EnumSet 을 사용하라'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM36
+    updated: '2019-04-16 09:44:33 +0900'
+    children: []
+ITEM37:
+    type: wiki
+    title: 'ordinal 인덱싱 대신 EnumMap 을 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM37
+    updated: '2019-04-19 09:32:42 +0900'
+    children: []
+ITEM38:
+    type: wiki
+    title: '확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM38
+    updated: '2019-04-22 09:33:35 +0900'
+    children: []
+ITEM39:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM39
+    updated: '2019-04-23 09:49:59 +0900'
+    children: []
+ITEM40:
+    type: wiki
+    title: 'Override 애너테이션을 일관 되게 사용하라.'
+    summary: null
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM40
+    updated: '2019-12-04 15:37:08 +0900'
+    children: []
+ITEM41:
+    type: wiki
+    title: '정의하려는 것이 타입이라면 마커 인터페이스를 사용하라'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM41
+    updated: '2019-04-29 10:04:20 +0900'
+    children: []
+ITEM42:
+    type: wiki
+    title: '익명클래스보다는 람다를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM42
+    updated: '2019-04-30 09:41:42 +0900'
+    children: []
+ITEM43:
+    type: wiki
+    title: '람다보다는 메서드 참조를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM43
+    updated: '2019-05-02 10:12:44 +0900'
+    children: []
+ITEM44:
+    type: wiki
+    title: '표준 함수형 인터페이스를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM44
+    updated: '2019-05-08 09:50:21 +0900'
+    children: []
+ITEM45:
+    type: wiki
+    title: '스트림은 주의해서 사용하라'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM45
+    updated: '2019-05-13 10:03:05 +0900'
+    children: []
+ITEM46:
+    type: wiki
+    title: '스트림에서는 부작용 없는 함수를 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM46
+    updated: '2019-05-15 09:50:10 +0900'
+    children: []
+ITEM47:
+    type: wiki
+    title: '반환타입으로는 스트림보다 컬렉션이 낫다.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM47
+    updated: '2019-05-16 09:53:41 +0900'
+    children: []
+ITEM48:
+    type: wiki
+    title: '스트림 병렬화는 주의해서 적용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM48
+    updated: '2019-05-17 10:28:47 +0900'
+    children: []
+ITEM49:
+    type: wiki
+    title: '매개변수가 유효한지 검사하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM49
+    updated: '2019-05-20 09:57:14 +0900'
+    children: []
+ITEM50:
+    type: wiki
+    title: '적시에 방어적 복사본을 만들어라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM50
+    updated: '2019-05-21 09:30:29 +0900'
+    children: []
+ITEM51:
+    type: wiki
+    title: '메서드 시그니처를 신중히 설계하라'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM51
+    updated: '2019-05-22 09:31:58 +0900'
+    children: []
+ITEM52:
+    type: wiki
+    title: '다중정의는 신중히 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM52
+    updated: '2019-05-23 09:42:13 +0900'
+    children: []
+ITEM53:
+    type: wiki
+    title: '가변인수는 신중히 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM53
+    updated: '2019-05-24 09:27:36 +0900'
+    children: []
+ITEM54:
+    type: wiki
+    title: 'null 이 아닌, 빈 컬렉션이나 배열을 반환하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM54
+    updated: '2019-05-27 09:33:59 +0900'
+    children: []
+ITEM55:
+    type: wiki
+    title: '옵셔녈 반환은 신중히 하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM55
+    updated: '2019-05-28 09:31:50 +0900'
+    children: []
+ITEM57:
+    type: wiki
+    title: '지역변수의 범위를 최소화 하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM57
+    updated: '2019-05-29 09:29:01 +0900'
+    children: []
+ITEM58:
+    type: wiki
+    title: '전통정인 for 문 보다는 for-each 문을 사용하라.'
+    summary: ""
+    parent: EFFECTIVE_JAVA
+    url: /wiki/ITEM58
+    updated: '2019-05-30 09:36:51 +0900'
+    children: []
+JAVA_8:
+    type: wiki
+    title: 'JAVA 8 을 어떻게하면 더 효율적으로 사용할 것인가...'
+    summary: ""
+    parent: ""
+    url: /wiki/JAVA_8
+    updated: '2019-02-22 10:22:04 +0900'
+    children: []
+LAYERED_ARCHITECTURE:
+    type: wiki
+    title: '계층형 아키텍쳐(LAYERED_ARCHITECTURE)'
+    summary: LAYERED_ARCHITECTURE
+    parent: Domain_Driven_Design
+    url: /wiki/LAYERED_ARCHITECTURE
+    updated: '2018-05-13 10:37:22 +0900'
+    children: []
+mathjax-latex:
+    type: wiki
+    title: 'MathJax로 LaTeX 사용하기'
+    summary: null
+    parent: how-to
+    url: /wiki/mathjax-latex
+    updated: '2019-11-04 22:13:47 +0900'
+    children: []
+MaxCounter:
+    type: wiki
+    title: MaxCounter
+    summary: codility
+    parent: Coding
+    url: /wiki/MaxCounter
+    updated: '2018-06-02 12:16:00 +0900'
+    children: []
+MaxProductOfThree:
+    type: wiki
+    title: MaxProductOfThree
+    summary: codility
+    parent: Coding
+    url: /wiki/MaxProductOfThree
+    updated: '2018-06-17 14:48:50 +0900'
+    children: []
+MinAvgTwoSlice:
+    type: wiki
+    title: MinAvgTwoSlice
+    summary: codility
+    parent: Coding
+    url: /wiki/MinAvgTwoSlice
+    updated: '2018-06-14 11:18:20 +0900'
+    children: []
+MissingInteger:
+    type: wiki
+    title: MissingInteger
+    summary: codility
+    parent: Coding
+    url: /wiki/MissingInteger
+    updated: '2018-06-02 10:29:24 +0900'
+    children: []
+MODEL_DRIVEN_DESIGN:
+    type: wiki
+    title: '03.모델과 구현의 연계'
+    summary: ""
+    parent: ""
+    url: /wiki/MODEL_DRIVEN_DESIGN
+    updated: '2019-12-04 23:52:56 +0900'
+    children: []
+MODULE:
+    type: wiki
+    title: MODULE
+    summary: '모듈, 패키지라고도 함'
+    parent: Domain_Driven_Design
+    url: /wiki/MODULE
+    updated: '2018-05-14 13:46:47 +0900'
+    children: []
+MONO_REPO_VS_MULTI_REPO:
+    type: wiki
+    title: 'REPO STYLE WARS ,  MONO VS MULTI'
+    summary: '모노레포 vs 멀티레포'
+    parent: ""
+    url: /wiki/MONO_REPO_VS_MULTI_REPO
+    updated: '2018-04-16 17:38:39 +0900'
+    children: []
+Nesting:
+    type: wiki
+    title: Nesting
+    summary: codility
+    parent: Coding
+    url: /wiki/Nesting
+    updated: '2018-07-05 17:36:05 +0900'
+    children: []
+Nudge:
+    type: wiki
+    title: 넛지(Nudge)
+    summary: '본인도 인지하지 못하고 행하다'
+    parent: 2018_BOOK_LIST
+    url: /wiki/Nudge
+    updated: '2018-05-27 15:21:56 +0900'
+    children: []
+NumberOfDiscIntersections:
+    type: wiki
+    title: NumberOfDiscIntersections
+    summary: codility
+    parent: Coding
+    url: /wiki/NumberOfDiscIntersections
+    updated: '2018-07-01 21:37:12 +0900'
+    children: []
+OAUTH2:
+    type: wiki
+    title: OAUTH2
+    summary: 'Open Authorization, Open Authentication'
+    parent: ""
+    url: /wiki/OAUTH2
+    updated: '2018-10-13 14:23:39 +0900'
+    children: []
+OddOccurrencesInArray:
+    type: wiki
+    title: OddOccurrencesInArray
+    summary: codility
+    parent: Coding
+    url: /wiki/OddOccurrencesInArray
+    updated: '2018-05-21 10:52:55 +0900'
+    children: []
+originals:
+    type: wiki
+    title: 오리지널스
+    summary: ""
+    parent: 2018_BOOK_KIST
+    url: /wiki/originals
+    updated: '2018-08-07 17:17:13 +0900'
+    children: []
+ORM_HATE:
+    type: wiki
+    title: 'OrmHate by Martim Fowler'
+    summary: ormhate
+    parent: ""
+    url: /wiki/ORM_HATE
+    updated: '2018-05-24 17:31:01 +0900'
+    children: []
+PassingCars:
+    type: wiki
+    title: PassingCars
+    summary: codility
+    parent: Coing
+    url: /wiki/PassingCars
+    updated: '2018-06-06 10:16:16 +0900'
+    children: []
+PermCheck:
+    type: wiki
+    title: permCheck
+    summary: codility
+    parent: Coding
+    url: /wiki/PermCheck
+    updated: '2018-05-31 12:22:48 +0900'
+    children: []
+PermMissingElem:
+    type: wiki
+    title: PermMissingElem
+    summary: codility
+    parent: Coding
+    url: /wiki/PermMissingElem
+    updated: '2018-05-23 16:16:35 +0900'
+    children: []
+primeNumber:
+    type: wiki
+    title: '왜 1은 소수가 아닌가?'
+    summary: 'number 1'
+    parent: ""
+    url: /wiki/primeNumber
+    updated: '2018-05-23 06:22:33 +0900'
+    children: []
+REAL_UML:
+    type: wiki
+    title: 'UML 실전에서는 이것만 쓴다.'
+    summary: uml
+    parent: 2018_BOOK_KIST
+    url: /wiki/REAL_UML
+    updated: '2018-07-27 09:45:56 +0900'
+    children: []
+rebase:
+    type: wiki
+    title: rebase
+    summary: 'git rebase'
+    parent: git
+    url: /wiki/rebase
+    updated: '2019-02-09 11:22:02 +0900'
+    children: []
+Refactoring:
+    type: wiki
+    title: Refactoring
+    summary: '프로그램의 가치를 높이는 코드 정리기술'
+    parent: 2018_BOOK_KIST
+    url: /wiki/Refactoring
+    updated: '2019-02-01 15:00:02 +0900'
+    children: []
+RollbackException:
+    type: wiki
+    title: RollbackExecption
+    summary: rollback
+    parent: ""
+    url: /wiki/RollbackException
+    updated: '2019-02-14 12:40:40 +0900'
+    children: []
+SAML_OAuth:
+    type: wiki
+    title: ""
+    summary: ""
+    parent: ""
+    url: /wiki/SAML_OAuth
+    updated: '2018-10-10 11:07:05 +0900'
+    children: []
+SERVICE:
+    type: wiki
+    title: SERVICE
+    summary: service
+    parent: Domain_Driven_Design
+    url: /wiki/SERVICE
+    updated: '2018-05-13 10:37:26 +0900'
+    children: []
+SMART_UI:
+    type: wiki
+    title: 'Smart ui'
+    summary: 안티패턴
+    parent: Domain_Driven_Design
+    url: /wiki/SMART_UI
+    updated: '2018-05-16 20:47:47 +0900'
+    children: []
+SOFTWARE_MODEL:
+    type: wiki
+    title: '05.소프트웨어에서 표현되는 모델'
+    summary: ""
+    parent: ""
+    url: /wiki/SOFTWARE_MODEL
+    updated: '2020-01-07 07:18:06 +0900'
+    children: []
+SPATIAL:
+    type: wiki
+    title: SPATIAL
+    summary: '공간 데이터타입'
+    parent: ""
+    url: /wiki/SPATIAL
+    updated: '2018-05-28 13:51:31 +0900'
+    children: []
+Spring:
+    type: wiki
+    title: 'Spring.io Project'
+    summary: spring
+    parent: ""
+    url: /wiki/Spring
+    updated: '2018-05-16 09:31:17 +0900'
+    children: [HAL]
+spring-data-redis:
+    type: wiki
+    title: 'springboot redis 사용해보기'
+    summary: redis
+    parent: ""
+    url: /wiki/spring-data-redis
+    updated: '2019-02-23 13:47:37 +0900'
+    children: []
+stash:
+    type: wiki
+    title: stash
+    summary: 'git stash'
+    parent: git
+    url: /wiki/stash
+    updated: '2019-02-09 11:22:29 +0900'
+    children: []
+TapeEquilibrium:
+    type: wiki
+    title: TapeEquilibrium
+    summary: codility
+    parent: Coding
+    url: /wiki/TapeEquilibrium
+    updated: '2018-06-02 10:29:02 +0900'
+    children: []
+Tech:
+    type: wiki
+    title: Tech
+    summary: it-tech
+    parent: ""
+    url: /wiki/Tech
+    updated: '2018-05-16 17:51:27 +0900'
+    children: [Travis_CI]
+The_Essence_of_Object_Orientation:
+    type: wiki
+    title: '객체지향의 사실과 오해'
+    summary: '역할 책임 협력관점에서 본 객체지향'
+    parent: 2018_BOOK_LIST
+    url: /wiki/The_Essence_of_Object_Orientation
+    updated: '2018-08-19 14:28:35 +0900'
+    children: []
+The_Fourth_Industrial_Revolution:
+    type: wiki
+    title: '클라우스 슈밥의 제4차 산업혁명'
+    summary: '4차 산업혁멍'
+    parent: 2018_BOOK_KIST
+    url: /wiki/The_Fourth_Industrial_Revolution
+    updated: '2018-07-22 18:36:46 +0900'
+    children: []
+TheSorrowsofYoungWerther:
+    type: wiki
+    title: '젊은 베르테르의 슬픔'
+    summary: '연얘 대서사시'
+    parent: 2018_BOOK_KIST
+    url: /wiki/TheSorrowsofYoungWerther
+    updated: '2018-06-01 15:14:03 +0900'
+    children: []
+THINKING_IN_JAVA:
+    type: wiki
+    title: THINKING_IN_JAVA
+    summary: 'basic java'
+    parent: ""
+    url: /wiki/THINKING_IN_JAVA
+    updated: '2020-06-26 05:52:32 +0900'
+    children: []
+Travis_CI:
+    type: wiki
+    title: Travis
+    summary: '트래비스 research'
+    parent: Tech
+    url: /wiki/Travis_CI
+    updated: '2018-05-17 16:12:07 +0900'
+    children: []
+Triangle:
+    type: wiki
+    title: Triangle
+    summary: codility
+    parent: Coding
+    url: /wiki/Triangle
+    updated: '2018-06-22 16:52:13 +0900'
+    children: []
+VALUE_OBJECT:
+    type: wiki
+    title: 'Value Object'
+    summary: '값 객체'
+    parent: Domain_Driven_Design
+    url: /wiki/VALUE_OBJECT
+    updated: '2018-05-14 10:19:41 +0900'
+    children: []
