@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2018 Book Review
 summary : book
 date    : 2018-05-09 17:37:27 +0900
-updated : 2019-01-01 15:33:31 +0900
+updated : 2020-06-26 07:45:57 +0900
 tags    : book
 toc     : true
 public  : true
@@ -27,7 +27,7 @@ latex   : false
 
 ## Review
 비록 목표한 50권의 책을 읽지는 못했지만
-책으로써 많은 것을 배울수 있었던 한해였다.
+책으로써 [[많은]] 것을 배울수 있었던 한해였다.
 
 
  * 2018-0*-** () [[Refactoring]]{리팩토링:프로그램의 가치를 높이는 코드정리기술 }
