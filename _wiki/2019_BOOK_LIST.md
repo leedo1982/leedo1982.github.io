@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2019 Book List
 summary : 
 date    : 2019-01-01 15:46:28 +0900
-tags    : book 2019
+tag     : book 2019
 toc     : true
 public  : true
 parent  : 
