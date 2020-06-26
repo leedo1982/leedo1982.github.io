@@ -92,7 +92,7 @@
     summary: ""
     parent: ""
     url: /wiki/2020_BOOK_LIST
-    updated: '2020-06-09 14:40:13 +0900'
+    updated: '2020-06-26 14:10:31 +0900'
     children: []
 배민다움:
     type: wiki
@@ -444,7 +444,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2020-06-09 14:40:11 +0900'
+    updated: '2020-06-26 14:16:57 +0900'
     children: []
 ITEM14:
     type: wiki
@@ -996,7 +996,7 @@ RollbackException:
     summary: rollback
     parent: ""
     url: /wiki/RollbackException
-    updated: '2019-02-14 12:40:40 +0900'
+    updated: '2020-06-26 14:16:05 +0900'
     children: []
 SAML_OAuth:
     type: wiki

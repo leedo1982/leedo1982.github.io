@@ -3,8 +3,8 @@ layout  : wiki
 title   : RollbackExecption
 summary : rollback
 date    : 2019-02-14 12:35:53 +0900
-updated : 2019-02-14 12:40:40 +0900
-tags    : failover
+updated : 2020-06-26 14:16:05 +0900
+tag     : failover
 toc     : true
 public  : true
 parent  : 

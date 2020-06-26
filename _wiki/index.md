@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-06-09 14:40:11 +0900
+updated : 2020-06-26 14:16:57 +0900
 tags    : index
 toc     : true
 public  : true
@@ -42,9 +42,11 @@ comment : false
 
 * PROGRAMMING 
     * [[REFACTORING]]
-    * FailOver
-        * [[RollbackException]]  
-        * [[AWS_ELB]]  
+    * 
+
+* FailOver
+    * [[RollbackException]]  
+    * [[AWS_ELB]]  
 
 * review
     * [[2018_REVIEW]]{2018년 회고}
