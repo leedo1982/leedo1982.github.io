@@ -2,9 +2,15 @@
     - {fileName: 2019_BOOK_LIST}
 book:
     - {fileName: 2019_BOOK_LIST}
+eventsourcing:
+    - {fileName: EVENT-SOURCING}
 how-to:
     - {fileName: how-to}
 latex:
     - {fileName: mathjax-latex}
+spring:
+    - {fileName: Redis}
+redis:
+    - {fileName: Redis}
 failover:
     - {fileName: RollbackException}

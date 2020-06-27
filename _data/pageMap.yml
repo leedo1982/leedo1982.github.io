@@ -326,6 +326,14 @@ ESC_CTRL_CAPSLOCK:
     url: /wiki/ESC_CTRL_CAPSLOCK
     updated: '2018-04-15 12:06:57 +0900'
     children: []
+EVENT-SOURCING:
+    type: wiki
+    title: 'EVENT Sourcing'
+    summary: 'Event Sourcing과 Fintech Platform Webinar'
+    parent: ""
+    url: /wiki/EVENT-SOURCING
+    updated: '2020-06-27 11:21:01 +0900'
+    children: []
 Fish:
     type: wiki
     title: Fish
@@ -444,7 +452,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2020-06-26 14:16:57 +0900'
+    updated: '2020-06-27 11:21:17 +0900'
     children: []
 ITEM14:
     type: wiki
@@ -981,6 +989,14 @@ rebase:
     parent: git
     url: /wiki/rebase
     updated: '2019-02-09 11:22:02 +0900'
+    children: []
+Redis:
+    type: wiki
+    title: 'Redis in Spring'
+    summary: '스프링에서 redis 를 사용하여 개발효울성을 높여보자'
+    parent: ""
+    url: /wiki/Redis
+    updated: '2020-06-26 14:29:16 +0900'
     children: []
 Refactoring:
     type: wiki

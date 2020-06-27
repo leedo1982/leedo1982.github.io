@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-06-26 14:16:57 +0900
+updated : 2020-06-27 11:21:17 +0900
 tags    : index
 toc     : true
 public  : true
@@ -37,12 +37,13 @@ comment : false
     * [[2019-PLAN-6MONTH]]
     * [[THINKING_IN_JAVA]]
     * [[EFFECTIVE_JAVA]]
+    * [[EVENT-SOURCING]]
     * 
 
 
 * PROGRAMMING 
     * [[REFACTORING]]
-    * 
+    * [[Redis]]
 
 * FailOver
     * [[RollbackException]]  
