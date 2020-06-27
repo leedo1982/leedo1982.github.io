@@ -3,7 +3,7 @@ layout  : wiki
 title   : THE_NATURE_OF_SOFRWARE_DEVELOPEMENT by 론 제프리스
 summary : 간결하게, 가치있게, 하나씩 완성하기 
 date    : 2020-06-27 19:25:58 +0900
-updated : 2020-06-27 21:23:43 +0900
+updated : 2020-06-28 07:09:08 +0900
 tag     : book
 toc     : true
 public  : true
@@ -43,4 +43,7 @@ Part2 메모와 에세이
 전문가는 단지 전문가이기 때문에 높은 연봉을 받는 것이 아니다. 그들이 다른 사람을 전문가로 이끌수 있어서 그런것이다.
 
 계획은 쓸모없을 때가 많습니다. 하지만 동시에 없어서는 안될 부분입니다.
+
+
+
 
