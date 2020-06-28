@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : 2020 Book List
-summary : 
+summary : 2020년 책읽자. 
 date    : 2020-06-09 14:35:35 +0900
-updated : 2020-06-26 14:10:31 +0900
+updated : 2020-06-28 09:39:04 +0900
 tags    : book 2019
 toc     : true
 public  : true
@@ -13,9 +13,11 @@ latex   : false
 * TOC
 {:toc}
 
-# Book(2020-06-09 시작기준)
-> 2019년 독서 목표 : 40권 & 책에 대한 리뷰를 꼭 남긴다.
+# Book(2020-06-27 시작기준)
 
+
+
+# THE_NATURE_OF_SOFRWARE_DEVELOPEMENT(by 론 제프리스)
 
 
 

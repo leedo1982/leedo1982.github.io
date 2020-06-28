@@ -2,23 +2,13 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-06-27 11:21:17 +0900
+updated : 2020-06-28 09:39:00 +0900
 tags    : index
 toc     : true
 public  : true
 comment : false
 ---
 
-* Book
-    * [[2020_BOOK_LIST]]
-        * [[2020_BOOK_LIST]]
-    * [[2019_BOOK_LIST]]
-
-* tool
-    * [[git]]
-    * [[Aogorism]]
-    * [[Design_Pattern]]
-    * [[JAVA_8]]
 
 * [[Domain_Driven_Design]]
     * [[MODEL_DRIVEN_DESIGN]]{03.모델과 구현의 연계}
@@ -26,28 +16,27 @@ comment : false
     * [[DOMAIN_ISOLATION]]{04.도메인의 격리}
     * [[SOFTWARE_MODEL]]{05.소프트웨어에서 표현되는 모델 }
 
-
-* 모각코
-    * [[spring-data-redis]] 
-
-* 참조
-    * [[How_to_win_friends_and_influence_people]]{인생의 행동목표}
-
-* JAVA / SPRING 
-    * [[2019-PLAN-6MONTH]]
+* PROGRAMMING 
     * [[THINKING_IN_JAVA]]
     * [[EFFECTIVE_JAVA]]
     * [[EVENT-SOURCING]]
-    * 
-
-
-* PROGRAMMING 
     * [[REFACTORING]]
     * [[Redis]]
+    * [[git]]
+    * [[Aogorism]]
+    * [[Design_Pattern]]
+    * [[JAVA_8]]
+
 
 * FailOver
     * [[RollbackException]]  
     * [[AWS_ELB]]  
+
+
+* Book
+    * [[2020_BOOK_LIST]]
+        * [[THE_NATURE_OF_SOFRWARE_DEVELOPEMENT]]
+    * [[2019_BOOK_LIST]]
 
 * review
     * [[2018_REVIEW]]{2018년 회고}
@@ -66,6 +55,7 @@ comment : false
     * [[ESC_CTRL_CAPSLOCK]]{ CAPS_LOCK 키를 ESC + CTRL 로 사용하자 }
     * [[ORM_HATE]]{OrmHate by Martim Fowler}
     * [[SPATIAL]]{Mysql 공간데이터타입}
+    * [[How_to_win_friends_and_influence_people]]{인생의 행동목표}
 
 ---
 
