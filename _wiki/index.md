@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-06-28 09:39:00 +0900
+updated : 2020-06-29 09:57:58 +0900
 tags    : index
 toc     : true
 public  : true
@@ -36,6 +36,8 @@ comment : false
 * Book
     * [[2020_BOOK_LIST]]
         * [[THE_NATURE_OF_SOFRWARE_DEVELOPEMENT]]
+        * [[PRACTICAL_VIM]]
+        * [[PRO_GIT]]
     * [[2019_BOOK_LIST]]
 
 * review

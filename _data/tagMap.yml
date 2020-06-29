@@ -2,6 +2,8 @@
     - {fileName: 2019_BOOK_LIST}
 book:
     - {fileName: 2019_BOOK_LIST}
+    - {fileName: PRACTICAL_VIM}
+    - {fileName: PRO_GIT}
     - {fileName: THE_NATURE_OF_SOFRWARE_DEVELOPEMENT}
 eventsourcing:
     - {fileName: EVENT-SOURCING}

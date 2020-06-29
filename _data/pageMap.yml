@@ -328,11 +328,11 @@ ESC_CTRL_CAPSLOCK:
     children: []
 EVENT-SOURCING:
     type: wiki
-    title: 'EVENT Sourcing'
+    title: 'EVENT Sourcing - 이벤트 소싱'
     summary: 'Event Sourcing과 Fintech Platform Webinar'
     parent: ""
     url: /wiki/EVENT-SOURCING
-    updated: '2020-06-28 15:48:32 +0900'
+    updated: '2020-06-29 16:00:56 +0900'
     children: []
 Fish:
     type: wiki
@@ -452,7 +452,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2020-06-28 09:39:00 +0900'
+    updated: '2020-06-29 09:57:58 +0900'
     children: []
 ITEM14:
     type: wiki
@@ -958,6 +958,14 @@ PermMissingElem:
     url: /wiki/PermMissingElem
     updated: '2018-05-23 16:16:35 +0900'
     children: []
+PRACTICAL_VIM:
+    type: wiki
+    title: 'Practical vim by 드류네일'
+    summary: '손이 먼저 반응하는 practical vim'
+    parent: ""
+    url: /wiki/PRACTICAL_VIM
+    updated: '2020-06-29 09:54:08 +0900'
+    children: []
 primeNumber:
     type: wiki
     title: '왜 1은 소수가 아닌가?'
@@ -965,6 +973,14 @@ primeNumber:
     parent: ""
     url: /wiki/primeNumber
     updated: '2018-05-23 06:22:33 +0900'
+    children: []
+PRO_GIT:
+    type: wiki
+    title: 'Pro git by 스캇 샤콘, 벤 스트라웁'
+    summary: '그림으로 이해하는 Git의 작동원리와 사용법'
+    parent: ""
+    url: /wiki/PRO_GIT
+    updated: '2020-06-29 09:57:50 +0900'
     children: []
 REAL_UML:
     type: wiki
