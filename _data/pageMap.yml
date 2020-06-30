@@ -328,11 +328,11 @@ ESC_CTRL_CAPSLOCK:
     children: []
 EVENT-SOURCING:
     type: wiki
-    title: 'EVENT Sourcing - 이벤트 소싱'
+    title: '이벤트 소싱 (EVENT Sourcing)'
     summary: 'Event Sourcing과 Fintech Platform Webinar'
     parent: ""
     url: /wiki/EVENT-SOURCING
-    updated: '2020-06-29 16:00:56 +0900'
+    updated: '2020-06-30 09:58:39 +0900'
     children: []
 Fish:
     type: wiki

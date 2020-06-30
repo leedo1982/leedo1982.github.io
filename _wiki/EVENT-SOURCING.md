@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : EVENT Sourcing - 이벤트 소싱
+title   : 이벤트 소싱 (EVENT Sourcing)
 summary : Event Sourcing과 Fintech Platform Webinar
 date    : 2020-06-27 10:08:23 +0900
-updated : 2020-06-29 16:00:56 +0900
+updated : 2020-06-30 09:58:39 +0900
 tag     : eventsourcing 
 toc     : true
 public  : true
