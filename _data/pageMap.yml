@@ -980,7 +980,7 @@ PRO_GIT:
     summary: '그림으로 이해하는 Git의 작동원리와 사용법'
     parent: ""
     url: /wiki/PRO_GIT
-    updated: '2020-06-29 09:57:50 +0900'
+    updated: '2020-06-30 14:04:19 +0900'
     children: []
 REAL_UML:
     type: wiki
@@ -1124,7 +1124,7 @@ THE_NATURE_OF_SOFRWARE_DEVELOPEMENT:
     summary: '간결하게, 가치있게, 하나씩 완성하기'
     parent: ""
     url: /wiki/THE_NATURE_OF_SOFRWARE_DEVELOPEMENT
-    updated: '2020-06-28 09:38:28 +0900'
+    updated: '2020-06-30 21:50:55 +0900'
     children: []
 TheSorrowsofYoungWerther:
     type: wiki
