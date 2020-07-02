@@ -246,6 +246,14 @@ CyclicRotation:
     url: /wiki/CyclicRotation
     updated: '2018-06-02 10:28:36 +0900'
     children: []
+DDD_Entity:
+    type: wiki
+    title: '도메인 주도 설계 - Entity 란'
+    summary: 'Entity 란 무엇인가.'
+    parent: ""
+    url: /wiki/DDD_Entity
+    updated: '2020-07-02 08:19:24 +0900'
+    children: []
 Design_Pattern:
     type: wiki
     title: '디자인 패턴'
@@ -452,7 +460,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2020-06-29 09:57:58 +0900'
+    updated: '2020-07-02 08:19:36 +0900'
     children: []
 ITEM14:
     type: wiki
@@ -964,7 +972,7 @@ PRACTICAL_VIM:
     summary: '손이 먼저 반응하는 practical vim'
     parent: ""
     url: /wiki/PRACTICAL_VIM
-    updated: '2020-07-01 10:12:11 +0900'
+    updated: '2020-07-02 11:19:43 +0900'
     children: []
 primeNumber:
     type: wiki

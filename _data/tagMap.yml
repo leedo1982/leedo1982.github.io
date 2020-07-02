@@ -5,6 +5,8 @@ book:
     - {fileName: PRACTICAL_VIM}
     - {fileName: PRO_GIT}
     - {fileName: THE_NATURE_OF_SOFRWARE_DEVELOPEMENT}
+DDD:
+    - {fileName: DDD_Entity}
 eventsourcing:
     - {fileName: EVENT-SOURCING}
 how-to:
