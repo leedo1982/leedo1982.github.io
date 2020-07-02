@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-06-29 09:57:58 +0900
+updated : 2020-07-02 08:19:36 +0900
 tags    : index
 toc     : true
 public  : true
@@ -15,6 +15,8 @@ comment : false
     * 제 2 부 모델 주도 셜계의 기본 요소
     * [[DOMAIN_ISOLATION]]{04.도메인의 격리}
     * [[SOFTWARE_MODEL]]{05.소프트웨어에서 표현되는 모델 }
+    * [[DDD_Entity]]
+    * 
 
 * PROGRAMMING 
     * [[THINKING_IN_JAVA]]
