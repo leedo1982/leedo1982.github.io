@@ -3,7 +3,7 @@ layout  : wiki
 title   : Practical vim by 드류네일 
 summary : 손이 먼저 반응하는 practical vim
 date    : 2020-06-29 09:35:11 +0900
-updated : 2020-07-09 10:41:29 +0900
+updated : 2020-07-10 10:23:59 +0900
 tag     : book
 toc     : true
 public  : true
@@ -122,3 +122,26 @@ ctrl-[ : 일반모드 전환하기
 ctrl-o : 끼워넣기 일반모드 전환하기 
 ```
 
+
+## tip15. 끼워넣기 모드를 벗어나지 않고 레지스터 붙여넣기
+
+
+```
+example
+Practical Vim, by Drew Neil
+ReadDrew Neil's
+
+
+t : 찾는 문자 앞에서 멈춤
+f : 찾는 문자에서 멈춤
+ctrl-r{레지스터문자} : 레지스테의 문자 붙여넣기 
+
+```
+
+## tip16. 즉석에서 계산하기
+
+```
+의자 6개 개당 35월 총계 $ 210
+
+<ctrl-r>= : 단순계산기처럼 사용가능
+```
