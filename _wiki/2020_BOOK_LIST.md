@@ -3,7 +3,7 @@ layout  : wiki
 title   : 2020 Book List
 summary : 2020년 책읽자. 
 date    : 2020-06-09 14:35:35 +0900
-updated : 2020-06-28 09:39:04 +0900
+updated : 2020-07-13 10:16:06 +0900
 tags    : book 2019
 toc     : true
 public  : true
@@ -17,8 +17,9 @@ latex   : false
 
 
 
-# THE_NATURE_OF_SOFRWARE_DEVELOPEMENT(by 론 제프리스)
-
+ * 2020-07-* (001) [[PRACTICAL_VIM]]
+ * 2020-07-* (001) [[PRO_GIT]]
+ * 2020-07-10 (001) [[THE_NATURE_OF_SOFRWARE_DEVELOPEMENT]]{THE_NATURE_OF_SOFRWARE_DEVELOPEMENT(by 론 제프리스)}
 
 
 
