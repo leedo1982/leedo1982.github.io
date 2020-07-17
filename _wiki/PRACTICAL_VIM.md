@@ -3,7 +3,7 @@ layout  : wiki
 title   : Practical vim by 드류네일 
 summary : 손이 먼저 반응하는 practical vim
 date    : 2020-06-29 09:35:11 +0900
-updated : 2020-07-16 09:58:31 +0900
+updated : 2020-07-17 12:50:43 +0900
 tag     : book
 toc     : true
 public  : true
@@ -196,4 +196,15 @@ vit : tag 안의 내용을 선택할 수 있다.
 Vr~ : 한줄의 문자를 ~ 로 치환한다.
 ```
 
+## tip25. 문서의 열 변경하기
+```
+<C-v> 
+c : 선택한 블럭만 지워지고 입력모드로 변경됨
+
+```
+## tip26. 비주얼 블럭을 쪼개서 본문에 붙여넣기
+```
+<C-v> 
+A : 선택한 블럭에 이상없이 위치만 이동
+```
 
