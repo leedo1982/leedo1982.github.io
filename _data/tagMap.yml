@@ -11,6 +11,10 @@ eventsourcing:
     - {fileName: EVENT-SOURCING}
 how-to:
     - {fileName: how-to}
+sql:
+    - {fileName: REAL_MYSQL}
+db:
+    - {fileName: REAL_MYSQL}
 spring:
     - {fileName: Redis}
 redis:

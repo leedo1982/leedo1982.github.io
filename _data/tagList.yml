@@ -1,8 +1,10 @@
 - '2019'
 - book
+- db
 - DDD
 - eventsourcing
 - failover
 - how-to
 - redis
 - spring
+- sql
