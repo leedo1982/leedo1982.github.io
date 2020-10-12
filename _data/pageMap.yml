@@ -918,6 +918,38 @@ Mysql_3_8_mysql_log_file:
     url: /wiki/Mysql_3_8_mysql_log_file
     updated: '2020-10-12 06:42:53 +0900'
     children: []
+Mysql_4_1_transaction:
+    type: wiki
+    title: '4.1 트랜잭션'
+    summary: ""
+    parent: ""
+    url: /wiki/Mysql_4_1_transaction
+    updated: '2020-10-13 05:58:40 +0900'
+    children: []
+Mysql_4_2_mysql_lock_of_engine:
+    type: wiki
+    title: '4.2 Mysql 엔진의 잠금'
+    summary: ""
+    parent: ""
+    url: /wiki/Mysql_4_2_mysql_lock_of_engine
+    updated: '2020-10-13 07:00:13 +0900'
+    children: []
+Mysql_4_3_lock_of_myisam_memory:
+    type: wiki
+    title: 'MyISAM 과 MEMORY 스토리지 엔진 잠금'
+    summary: ""
+    parent: REAL_MYSQL
+    url: /wiki/Mysql_4_3_lock_of_myisam_memory
+    updated: '2020-10-13 07:15:56 +0900'
+    children: []
+Mysql_4_4_lock_of_innodb:
+    type: wiki
+    title: 'InnoDB 스토리지 엔진 잠금'
+    summary: ""
+    parent: REAL_MYSQL
+    url: /wiki/Mysql_4_4_lock_of_innodb
+    updated: '2020-10-13 07:50:35 +0900'
+    children: []
 Nesting:
     type: wiki
     title: Nesting
@@ -1028,8 +1060,8 @@ REAL_MYSQL:
     summary: ""
     parent: ""
     url: /wiki/REAL_MYSQL
-    updated: '2020-10-12 06:42:59 +0900'
-    children: []
+    updated: '2020-10-13 07:50:39 +0900'
+    children: [Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb]
 REAL_UML:
     type: wiki
     title: 'UML 실전에서는 이것만 쓴다.'
