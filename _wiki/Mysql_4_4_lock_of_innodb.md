@@ -3,7 +3,7 @@ layout  : wiki
 title   : InnoDB 스토리지 엔진 잠금
 summary : 
 date    : 2020-10-13 07:16:27 +0900
-updated : 2020-10-13 07:50:35 +0900
+updated : 2020-10-14 09:11:17 +0900
 tag     : 
 toc     : true
 public  : true
@@ -47,4 +47,31 @@ latex   : false
   위 조합으로 설정되면 4.4.3의 불필요한 잠금도 일부 없어 진다. UPDATE 문장으로 처리하기 위해 일치하는 레코드르 인덱스를 이용해 검색할때, 우선 인덱스만을 비교해서 일치하는 레코드에 대해 배타적 잠금을 걸게 되지만, 그 다음 나머지 조건을 비교해서 일치하지 않는 레코드는 즉시 잠그을 해제한다.
   
 # 4.4.5 레코드 수준의 잠금 확인 및 해제 
+  더 자세한 각 커넥션의 트랜잭션 상황을 살펴보기 위한 "SHOW ENGINE INNODB STATUS"
+  ```
+  mysql> SELECT 
+  r.trx_id waiting_trx_id,
+  r.trx_mysql_thread_id waiting_thread,
+  r.trx_query waiting_query,
+  rb.trx_id blocking_trx_id,
+  b.trx_mysql_thread_id blocking_thread,
+  b.trx_query blocking_query
+  FROM iformation_schema.innodb_lock_watis w
+  INNER JOIN  information_schema.innodb_trx b ON b.trx_id = w.blocking_trx_id
+  INNER JOIN information_schema.innodb_trx r ON r.trx_id = w.requesting_trx_id
+
+  ```
+  
+  
+# Mysql 의 격리 수준 
+  트랜잭션 격리 수준이란 동시에 여러 트랜잭션이 처리될때, 특정 트랜잭션이 다른 트랜잭션에서 변경하거나 조회하는 데이터를 볼수 있도록 허용할지 말지 결정하는 것이다.
+  
+  ---
+| 구분             | DIRTY READ    | NON-REPEATABLE READ | PHANTOM READ               |
+| READ UNCOMMITTED | 발생          | 발생                | 발생                       |
+| READ COMMITTED   | 발생하지 않음 | 발생                | 발생                       |
+| REPEATABLE READ  | 발생하지 않음 | 발생하지 않음       | 발생(innoDB 발생하지 않음) |
+| SERIALIZABLE     | 발생하지 않음 | 발생하지 않음       | 발생하지 않음              |
+  
+  ---
   

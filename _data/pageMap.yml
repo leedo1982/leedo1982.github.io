@@ -948,7 +948,7 @@ Mysql_4_4_lock_of_innodb:
     summary: ""
     parent: REAL_MYSQL
     url: /wiki/Mysql_4_4_lock_of_innodb
-    updated: '2020-10-13 07:50:35 +0900'
+    updated: '2020-10-14 09:11:17 +0900'
     children: []
 Nesting:
     type: wiki
