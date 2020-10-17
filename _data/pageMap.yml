@@ -950,6 +950,30 @@ Mysql_4_4_lock_of_innodb:
     url: /wiki/Mysql_4_4_lock_of_innodb
     updated: '2020-10-14 09:11:17 +0900'
     children: []
+Mysql_5_1_disk_read_type:
+    type: wiki
+    title: '5.1 디스크 읽기 방식'
+    summary: ""
+    parent: ""
+    url: /wiki/Mysql_5_1_disk_read_type
+    updated: '2020-10-17 14:15:46 +0900'
+    children: []
+Mysql_5_2_index:
+    type: wiki
+    title: '인덱스란?'
+    summary: ""
+    parent: ""
+    url: /wiki/Mysql_5_2_index
+    updated: '2020-10-17 14:27:53 +0900'
+    children: []
+Mysql_5_3_b_tree:
+    type: wiki
+    title: 'B-Tree 인덱스'
+    summary: ""
+    parent: ""
+    url: /wiki/Mysql_5_3_b_tree
+    updated: '2020-10-17 18:31:38 +0900'
+    children: []
 Nesting:
     type: wiki
     title: Nesting
@@ -1060,7 +1084,7 @@ REAL_MYSQL:
     summary: ""
     parent: ""
     url: /wiki/REAL_MYSQL
-    updated: '2020-10-13 07:50:39 +0900'
+    updated: '2020-10-17 16:57:56 +0900'
     children: [Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb]
 REAL_UML:
     type: wiki
