@@ -3,11 +3,11 @@ layout  : wiki
 title   : 5.1 디스크 읽기 방식 
 summary : 
 date    : 2020-10-16 20:15:34 +0900
-updated : 2020-10-17 14:15:46 +0900
+updated : 2020-10-19 08:05:35 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

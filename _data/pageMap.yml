@@ -890,49 +890,49 @@ Mysql_3_1_innodb_Arch:
     type: wiki
     title: 'InnoDB 스토리지 엔진 아키텍처'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_3_1_innodb_Arch
-    updated: '2020-10-10 13:55:37 +0900'
+    updated: '2020-10-19 08:03:53 +0900'
     children: []
 Mysql_3_1_mysql_Arch:
     type: wiki
     title: '3.1 Mysql 아키텍처'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_3_1_mysql_Arch
-    updated: '2020-10-09 22:06:29 +0900'
+    updated: '2020-10-19 08:03:17 +0900'
     children: []
 Mysql_3_3_myisam_Arch:
     type: wiki
     title: 'MyISAM 스토리지 엔진 아키텍처'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_3_3_myisam_Arch
-    updated: '2020-10-12 05:49:41 +0900'
+    updated: '2020-10-19 08:04:15 +0900'
     children: []
 Mysql_3_8_mysql_log_file:
     type: wiki
     title: '3.8 MySQL 로그파일'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_3_8_mysql_log_file
-    updated: '2020-10-12 06:42:53 +0900'
+    updated: '2020-10-19 08:04:27 +0900'
     children: []
 Mysql_4_1_transaction:
     type: wiki
     title: '4.1 트랜잭션'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_4_1_transaction
-    updated: '2020-10-13 05:58:40 +0900'
+    updated: '2020-10-19 08:04:37 +0900'
     children: []
 Mysql_4_2_mysql_lock_of_engine:
     type: wiki
     title: '4.2 Mysql 엔진의 잠금'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_4_2_mysql_lock_of_engine
-    updated: '2020-10-13 07:00:13 +0900'
+    updated: '2020-10-19 08:04:52 +0900'
     children: []
 Mysql_4_3_lock_of_myisam_memory:
     type: wiki
@@ -940,7 +940,7 @@ Mysql_4_3_lock_of_myisam_memory:
     summary: ""
     parent: REAL_MYSQL
     url: /wiki/Mysql_4_3_lock_of_myisam_memory
-    updated: '2020-10-13 07:15:56 +0900'
+    updated: '2020-10-19 08:05:07 +0900'
     children: []
 Mysql_4_4_lock_of_innodb:
     type: wiki
@@ -948,31 +948,47 @@ Mysql_4_4_lock_of_innodb:
     summary: ""
     parent: REAL_MYSQL
     url: /wiki/Mysql_4_4_lock_of_innodb
-    updated: '2020-10-14 09:11:17 +0900'
+    updated: '2020-10-19 08:05:30 +0900'
     children: []
 Mysql_5_1_disk_read_type:
     type: wiki
     title: '5.1 디스크 읽기 방식'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_5_1_disk_read_type
-    updated: '2020-10-17 14:15:46 +0900'
+    updated: '2020-10-19 08:05:35 +0900'
     children: []
 Mysql_5_2_index:
     type: wiki
     title: '인덱스란?'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_5_2_index
-    updated: '2020-10-17 14:27:53 +0900'
+    updated: '2020-10-19 08:05:51 +0900'
     children: []
 Mysql_5_3_b_tree:
     type: wiki
     title: 'B-Tree 인덱스'
     summary: ""
-    parent: ""
+    parent: REAL_MYSQL
     url: /wiki/Mysql_5_3_b_tree
-    updated: '2020-10-17 18:31:38 +0900'
+    updated: '2020-10-19 08:06:03 +0900'
+    children: []
+Mysql_5_4_hash_index:
+    type: wiki
+    title: '5.4 해시 인덱스'
+    summary: ""
+    parent: REAL_MYSQL
+    url: /wiki/Mysql_5_4_hash_index
+    updated: '2020-10-19 08:06:19 +0900'
+    children: []
+Mysql_5_5_r_tree_index:
+    type: wiki
+    title: 'R-Tree 인덱스'
+    summary: ""
+    parent: REAL_MYSQL
+    url: /wiki/Mysql_5_5_r_tree_index
+    updated: '2020-10-19 07:59:38 +0900'
     children: []
 Nesting:
     type: wiki
@@ -1082,10 +1098,10 @@ REAL_MYSQL:
     type: wiki
     title: 'Real Mysql'
     summary: ""
-    parent: ""
+    parent: index
     url: /wiki/REAL_MYSQL
-    updated: '2020-10-17 16:57:56 +0900'
-    children: [Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb]
+    updated: '2020-10-19 08:01:26 +0900'
+    children: [Mysql_3_1_innodb_Arch, Mysql_3_1_mysql_Arch, Mysql_3_3_myisam_Arch, Mysql_3_8_mysql_log_file, Mysql_4_1_transaction, Mysql_4_2_mysql_lock_of_engine, Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb, Mysql_5_1_disk_read_type, Mysql_5_2_index, Mysql_5_3_b_tree, Mysql_5_4_hash_index, Mysql_5_5_r_tree_index]
 REAL_UML:
     type: wiki
     title: 'UML 실전에서는 이것만 쓴다.'

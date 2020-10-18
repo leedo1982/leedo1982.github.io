@@ -11,6 +11,8 @@ eventsourcing:
     - {fileName: EVENT-SOURCING}
 how-to:
     - {fileName: how-to}
+mysql:
+    - {fileName: Mysql_5_5_r_tree_index}
 sql:
     - {fileName: REAL_MYSQL}
 db:

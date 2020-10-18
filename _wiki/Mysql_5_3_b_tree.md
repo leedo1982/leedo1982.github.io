@@ -3,11 +3,11 @@ layout  : wiki
 title   : B-Tree 인덱스 
 summary : 
 date    : 2020-10-17 14:28:21 +0900
-updated : 2020-10-17 18:31:38 +0900
+updated : 2020-10-19 08:06:03 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

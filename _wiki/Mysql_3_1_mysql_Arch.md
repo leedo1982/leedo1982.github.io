@@ -3,11 +3,11 @@ layout  : wiki
 title   : 3.1 Mysql 아키텍처
 summary : 
 date    : 2020-10-09 21:06:12 +0900
-updated : 2020-10-09 22:06:29 +0900
+updated : 2020-10-19 08:03:17 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

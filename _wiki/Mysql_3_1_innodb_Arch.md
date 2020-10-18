@@ -3,11 +3,11 @@ layout  : wiki
 title   : InnoDB 스토리지 엔진 아키텍처
 summary : 
 date    : 2020-10-10 13:11:58 +0900
-updated : 2020-10-10 13:55:37 +0900
+updated : 2020-10-19 08:03:53 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

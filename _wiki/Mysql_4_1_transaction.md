@@ -3,11 +3,11 @@ layout  : wiki
 title   : 4.1 트랜잭션
 summary : 
 date    : 2020-10-13 05:47:54 +0900
-updated : 2020-10-13 05:58:40 +0900
+updated : 2020-10-19 08:04:37 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

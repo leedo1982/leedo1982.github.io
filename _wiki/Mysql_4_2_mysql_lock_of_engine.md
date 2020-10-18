@@ -3,11 +3,11 @@ layout  : wiki
 title   : 4.2 Mysql 엔진의 잠금
 summary : 
 date    : 2020-10-13 05:59:36 +0900
-updated : 2020-10-13 07:00:13 +0900
+updated : 2020-10-19 08:04:52 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

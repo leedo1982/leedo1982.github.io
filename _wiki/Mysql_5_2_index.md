@@ -3,11 +3,11 @@ layout  : wiki
 title   : 인덱스란?
 summary : 
 date    : 2020-10-17 14:16:09 +0900
-updated : 2020-10-17 14:27:53 +0900
+updated : 2020-10-19 08:05:51 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

@@ -3,12 +3,12 @@ layout  : wiki
 title   : Real Mysql
 summary : 
 date    : 2020-10-09 21:02:56 +0900
-updated : 2020-10-17 16:57:56 +0900
+updated : 2020-10-19 08:01:26 +0900
 tag     : sql db 
 toc     : true
 public  : true
-parent  : 
-latex   : false
+parent  : [[index]]
+latex   : true
 ---
 * TOC
 {:toc}
@@ -28,4 +28,6 @@ latex   : false
     * [X] 2020-10-16  5.1 [[Mysql_5_1_disk_read_type]]{디스크 읽기 방식}
     * [X] 2020-10-17  5.2 [[Mysql_5_2_index]]{인덱스란?}
     * [X] 2020-10-17  5.3 [[Mysql_5_3_b_tree]]{B-Tree 인덱스 }
+    * [X] 2020-10-19  5.4 [[Mysql_5_4_hash_index]]{HASH 인덱스 }
+    * [X] 2020-10-19  5.5 [[Mysql_5_5_r_tree_index]]{R-Tree 인덱스 }
 

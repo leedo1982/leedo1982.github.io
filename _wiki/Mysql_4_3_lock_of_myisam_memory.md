@@ -3,11 +3,11 @@ layout  : wiki
 title   : MyISAM 과 MEMORY 스토리지 엔진 잠금
 summary : 
 date    : 2020-10-13 07:01:21 +0900
-updated : 2020-10-13 07:15:56 +0900
+updated : 2020-10-19 08:05:07 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : REAL_MYSQL
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

@@ -3,11 +3,11 @@ layout  : wiki
 title   : 3.8 MySQL 로그파일 
 summary : 
 date    : 2020-10-12 05:51:59 +0900
-updated : 2020-10-12 06:42:53 +0900
+updated : 2020-10-19 08:04:27 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC

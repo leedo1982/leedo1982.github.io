@@ -3,11 +3,11 @@ layout  : wiki
 title   : MyISAM 스토리지 엔진 아키텍처 
 summary : 
 date    : 2020-10-12 05:33:55 +0900
-updated : 2020-10-12 05:49:41 +0900
+updated : 2020-10-19 08:04:15 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : 
+parent  : [[REAL_MYSQL]]
 latex   : false
 ---
 * TOC
