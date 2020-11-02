@@ -3,7 +3,7 @@ layout  : wiki
 title   : Real Mysql
 summary : 
 date    : 2020-10-09 21:02:56 +0900
-updated : 2020-11-02 08:12:06 +0900
+updated : 2020-11-03 08:01:17 +0900
 tag     : sql db 
 toc     : true
 public  : true
@@ -32,4 +32,6 @@ latex   : true
     * [X] 2020-10-19  5.5 [[Mysql_5_5_r_tree_index]]{R-Tree 인덱스 }
     * [X] 2020-11-02  5.6 [[Mysql_5_6_fractal_tree_index]]{Fractal-Tree 인덱스 }
     * [X] 2020-11-02  5.7 [[Mysql_5_7_full_test_search_index]]{Full Text search 인덱스 }
+    * [X] 2020-11-03  5.8 [[Mysql_5_8_bitmap_index]]{비트맵 인덱스와 함수기반 인덱스 }
+    * [X] 2020-11-03  5.9 [[Mysql_5_9_clustering_index]]{클러스터링 인덱스 }
 
