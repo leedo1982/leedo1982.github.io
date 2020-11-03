@@ -3,7 +3,7 @@ layout  : wiki
 title   : Real Mysql
 summary : 
 date    : 2020-10-09 21:02:56 +0900
-updated : 2020-11-03 08:01:17 +0900
+updated : 2020-11-04 07:34:54 +0900
 tag     : sql db 
 toc     : true
 public  : true
@@ -34,4 +34,7 @@ latex   : true
     * [X] 2020-11-02  5.7 [[Mysql_5_7_full_test_search_index]]{Full Text search 인덱스 }
     * [X] 2020-11-03  5.8 [[Mysql_5_8_bitmap_index]]{비트맵 인덱스와 함수기반 인덱스 }
     * [X] 2020-11-03  5.9 [[Mysql_5_9_clustering_index]]{클러스터링 인덱스 }
+    * [X] 2020-11-04  5.10 [[Mysql_5_10_unique_index]]{유니크 인덱스 }
+    * [X] 2020-11-04  5.11 [[Mysql_5_11_foreign_key]]{왜래 키 }
+    * [X] 2020-11-04  5.12 [[Mysql_5_12_etc]]{기타 주의사항 }
 
