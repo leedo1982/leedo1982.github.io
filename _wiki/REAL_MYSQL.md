@@ -3,7 +3,7 @@ layout  : wiki
 title   : Real Mysql
 summary : 
 date    : 2020-10-09 21:02:56 +0900
-updated : 2020-12-22 07:40:42 +0900
+updated : 2020-12-22 23:00:28 +0900
 tag     : sql db 
 toc     : true
 public  : true
@@ -39,4 +39,5 @@ latex   : true
     * [X] 2020-11-04  5.12 [[Mysql_5_12_etc]]{기타 주의사항 }
 * [X] 06 실행계획
     * [X] 2020-12-22  6.1 [[Mysql_6_1_summary]]{개요 }
+    * [X] 2020-12-22  6.2 [[Mysql_6_2_plan_analysis]]{실행계획 분석 }
 
