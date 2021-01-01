@@ -3,7 +3,7 @@ layout  : wiki
 title   : Mysql 의 주요 처리 방식
 summary : 
 date    : 2020-12-27 09:07:36 +0900
-updated : 2020-12-31 07:57:32 +0900
+updated : 2021-01-01 10:42:42 +0900
 tag     : 
 toc     : true
 public  : true
@@ -77,4 +77,129 @@ latex   : false
     
     
 # 6.3.4 DISTINCT 처리 
-  
+  Distinct 는 Min(), MAX(),COUNT() 같은 집합함수와 함꼐 사용되는 경우와 집합 함수가 없는 경우로 두가지로 구분해서 살펴보자. 
+  - SELECT DISTINCT : 단순히 SELECT 되는 레코드 중에서 유니크한 레코드만 가져오고자 하면 SELECT DISTINCT 형태의 쿼리문장을 사용한다. 이경우에는 GROUP BY와 거의 같은 방식으로 처리된다. 단지 차이는 정렬이 보장되지 않는다는 것 뿐이다. DISTINCT 사용할 때 자주 실수하는 것이 있다. DISTINCT 는 SELECT 하는 레코드를 유니크하게 SELECT 하는 것이지 칼럼을 유니크하게 조회하는 것이 아니다. 즉 first_name 만 유니크한 것을 가져오는 것이 아니라 first_name+last_name 전체가 유니크한 레코드를 가져오는 것이다. (DISTINCT 는 함수가 아니므로 그뒤의 괄호는 의미가 없다.)
+  ```
+  SELECT DISTINCT first_name, last_name FROM employees;
+  ``` 
+  - 집합 함수와 함게 사용된 DISTINCT : 집합 함수와 같이 사용되는 DISTINCT는 일반적으로 사용되는 SELECT DISTINCT 와 다른 형태로 해석된다. 집합함수 내에서 사용되는 DISTINCT 는 그 집합 함수의 인자로 전달된 칼럼의 값이 유니크한 것들을 가져온다. DISTINCT 처리를 위해 인덱스를 이용할 수 없는 경우 임시 테이블이 필요하다. 다만 인덱스된 칼럼에 대해 DISTINCT 처리를 수행할 때는 임시테이블 없이 최적화된 처리를 수행할 수 있다. 
+    
+```
+다음 3개 쿼리의 차이를 잘 기억해 두자.
+
+SELECT DISTINCT first_name, last_name FROM employees WHERE emp_no BETWEEN 10001 AND 10200;
+SELECT COUNT(DISTINCT first_name), COUNT(DISTINCT last_name) FROM employees WHERE emp_no BETWEEN 10001 AND 10200;
+SELECT COUNT(DISTINCT first_name, last_name) FROM employees WHERE emp_no BETWEEN 10001 AND 10200;
+
+```
+
+# 6.3.5. 임시테이블(Using temporary) 
+  Mysql 엔진이 스토리지 엔젠으로부터 받아온 레코드를 정렬하거나 그룹핑할 때는 내부적인 임시 테이블을 사용한다. "내부적"이라는 단어가 포함된 것은 여기서 이야기하는 임시테이블(CREATE TEMPORARY TABLE)과는 다르기 때문이다. 
+  - 임시테이블이 필요한 쿼리  
+    다음과 같은 패턴의 쿼리는 Mysql 엔진에서 별도의 데이터 가공 작업을 필요로 하므로 대표적으로 내부 임시 테이블을 생성하는 케이스다. 
+    - ORDER BY와 GROUP BY에 명시된 칼럼이 다른 쿼리
+    - ORDER BY와 GROUP BY에 명시된 칼럼이 조인의 순서상 첫 번째 테이블이 아닌 쿼리
+    - DISTINCT 와 ORDER BY 가 동시에 쿼리에 존재하는 경우 또는 DISTINCT 가 인덱스로 처리되지 못하는 쿼리
+    - UNION 이나 UNION DISTINCT 가 사용된 쿼리(select_type 칼럼이 UNION RESULT 인 경우)
+    - UNION ALL이 사용된 쿼리 (select_type 칼럼이 UNION RESULT 인 경우)
+    - 쿼리 실행 계획에서 select_type 이 DERIVED인 쿼리 
+    어떤 쿼리의 실행 계획에서 임시 테이블이 사요하는지 Extra 칼럼에 "Using temporary" 라는 키워드가 표시되는지 확인하면 된다. 단 마지막 3개패턴은 키워드가 표시되지 않는다.
+  - 임시테이블이 디스크에 생성되는 경우(MyISAM 스토리지 엔진을 사용)  
+    내부 임시 테이블은 기본적으로는 메모리상에 만들어 지지만 다음과 같은 조건을 만족하면 메모리에 임시 테이블을 생성할 수 없으므로 디스크상에 MyISAM 테이블로 만들어진다. 
+    - 임시 테이블에 저장해야 하는 내용 중 BLOB나 TEXT 와 같은 대용량 칼럼이 있는 경우
+    - 임시 테이블에 저장해야 하는 레코드의 전체크기나 UNION이나 UNION ALL 에서 SELECT 되는 칼럼 중에서 길이가 512바이트 이상의 크기의 칼럼이 있는 경우
+    - GROUP BY 나 DISTINCT 칼럼에서 512 바이트 이상인 크기의 칼럼이 있는 경우
+    - 임시 테이블에 저장할 데이터의 전체 크기가 temp_table_size 또는 max_heap_table_size 시스템 설정 값보다 큰경우
+  - 임시 테이블 관련 상태 변수 
+    실행 계획상에서 "Using temporary"가 표시되면 임시 테이블을 사용했다는 사실을 알수 있다. 하지만 임시 테이블이 메모리에서 처리됐는지 디스크에서 처리됐는지 알수 없으며, 몇개의 임시 테이블이 사용됐는지도 알 수 없다. 내용을 보려면 쿼리를 실행하기 전에 "SHOW SESSION STATUS LIKE 'Created_tmp%'" 명령으로 임시 테이블의 현황을 먼저 확인해둔후 계산을 통해 알 수 있다.
+  - 임시테이블 관련 주의사항  
+    레코드 건수가 많지 않으면 내부 임시 테이블이 메모리에 생성되고, Mysql 의 서버의 부하에 크게 영향을 미치지는 않는다.  
+    ```
+    SELECT * FROM employees GROUP BY last_name ORDER BY first_name;
+    ```
+    이쿼리는 30만건 정도의 레코드가 있으며, GROUP BY와 ORDER BY 칼럼이 다르고, last_name 칼럼에 인덱스가 없기 때문에 임시테이블과 정렬 작업까지 수행햐야하는 가장 골칫거리가 되는 쿼리형태이다. 이 실행계획의 내부적인 작업과정을 살펴보면 다음과 같다.
+    1. Employees 테이블의 모든 칼럼을 포함한 임시테이블을 생
+    2. Employees 테이블로부터 첫번째 레코드를 InnoDB 스토리지 엔진으로부터 가져와서
+    3. 임시테이블에 같은 last_name 이 있는지 확인
+    4. 같은 last_name 이 없으면 임시테이블에 INSERT
+    5. 같은 last_name 이 있으면 임시테이블에 update 또는 무시
+    6. 임시테이블의 크기가 특정 크기보다 커지면 임시테이블을 MyISAM 테이블로 디스트로 이동
+    7. Employees 테이블에서 더 읽을 레코드가 없으때 까지 2~6번 과정 반복(이쿼리에서만 30만회 반복 )
+    8. 최종 내보 임시테이블에 저장된 결과에 대해 정렬 작업을 수행
+    9. 클라이언트에 결과반환 
+    가능하다면 인덱스를 이용해 처리하고, 처음부터 임시 테이블이 필요하지 않게 만드는 것이 가장 좋다. 만약 이렇게 하기 어렵다면 내부 임시테이블이 메모리에만 저장될 수 있게 가공대상 레코드를 적게 만드는 것이 좋다. 하지만 가공해야할 데이터를 줄일 수 없다고해서 tmp_table_size 또는 max_heap_table_size 시스템 설정 변수를 무조건 크게 설정하면 Mysql 서버가 사용할 여유 메모리를 내부 임시테이블에 모두 사용해 버릴 수도 있으므로 주의해야 한다. 
+    
+# 6.3.6 테이블 조인 
+  Mysql 은 다른 DBMS 보다 조인을 처리하는 방식이 단순하다. 현재 릴리즈 된 모든 버전에서 조인 방식은 네스티드-루프로 알려진 중첩된 루프와 같은 형태만 자원한다. 
+  - 조인의 종류  
+    크게 inner join 과 outer join 으로 구분할 수 있고 outer join 은 left outer join, right outer join, full outer join 으로 구분할 수 있다. 그리고 조인의 조건을 어떻게 명시하느냐에 따라 Natural join 과 cross join 으로 구분할 수 있다. 조인의 처리에서 어느 테이블을 먼저 읽을지를 결정하는 것은 상당히 중요하며, 그에 따라 처리할 작업량이 상당히 달라진다.
+      - JOIN(INNER JOIN)  
+        일반적으로 조인이라 함은 inner join 을 의미한다. 네스티드-루프 방식만 지원하며, 네스티스-루프란 일반적으로 프로그램을 작성할 때 두개의 FOR나 WHILE 같은 반복 루프 문장을 실행하는 형태로 조인이 처리되는 것을 의미한다. 
+        ```
+        FOR(record1 IN TABLE1){         // 외부루프(OUTER)
+            FOR(record2 IN TABLE2){     // 내부루프(INNER)
+                IF(record1.join_column == record2.join_column) {
+                    join_record_found(record1.*, record2.*);
+                }ELSE{
+                    join_record_notfound();
+                }
+            }
+        }
+        ```
+        아우터 테이블은 이너테이블보다 먼저 읽어야 하며, 조인에서 주도적인 역할을 한다고 해서 드라이빙테이블이라고도 한다. 이너 테이블은 조인에서 끌려가는 역할을 한다고 해서 드리븐테이블 이라고도 한다.  
+        중첩된 반복루프에서 죄종적으로 선택될 레코드가 안쪽 반복 루프에 의해 결졍되는 경우를 INNER JOIN 이라고 한다. 
+      - OUTER JOIN
+        ```
+          FOR(record1 IN TABLE1){         // 외부루프(OUTER)
+              FOR(record2 IN TABLE2){     // 내부루프(INNER)
+                  IF(record1.join_column == record2.join_column) {
+                      join_record_found(record1.*, record2.*);
+                  }ELSE{
+                      join_record_found(record1.*, NULL);
+                  }
+              }
+          }
+        ```
+        일치하는 레코드가 있으면 INNER 조인과 같은 결과를 만들어 내지만, 없는 경우 모두 NULL을 채워서 가져온다. LEFT OUTER JOIN 과 RIGHT OUTER JOIN 은 결국 처리내용이 같으므로 혼동을 막기 위해 LEFT OUTER JOIN으로 통일해서 사용하는 것이 일반적이다. Mysql 에서는 FULL OUTER JOIN을 지원하지 않는다.  
+        Mysql 의 실행계획은  INNER JOIN을 사용했는지 OUTER JOIN을 사용했는지를 알려주지 않으므로 OUTER JOIN을 의도한 쿼리가 INNER JOIN으로 실행되지는 않는지 주의해야한다. 이부분도 실수하기 쉬운부분인데, OUTER JOIN에서 레코드가 없을 수도 있는 쪽의 테이블에 대한 조건은 반드시 LEFT JOIN의 ON 절에 모두 명시하자. 그렇지 않으면 옵티마이저는  OUTER JOIN을 내부적으로 INNER JOIN으로 변형시켜서 처리해버릴 수도 있다. 
+        ```
+        SELECT * 
+        FROM employees e
+            LEFT OUTER JOIN salaries s ON s.emp_no = e.emp_no
+        WHERE s.salaries > 5000;
+
+        :OUTER JOIN 으로 연결되는 테이블의 칼럼에 대한 조건이 ON 절에 명시되지 않고 WHERE 절에 명시되어 
+        Mysql 서버는 최적화 단계에서 다음과 같은 쿼리로 변경한후 실행한ㄷ. 
+
+        SELECT * 
+        FROM employees e
+            INNER JOIN salaries s ON s.emp_no = e.emp_no
+        WHERE s.salaries > 5000;
+        ```
+        이런 형태의 쿼리는 다음 2가지 중의 한 방식으로 수정해야 쿼리 자체의 의도나 결과를 명확히 할 수 있다.
+        ```
+        --// 순수하게 OUTER JOIN으로 표현한 쿼리
+        SELECT * 
+        FROM employees e
+            LEFT OUTER JOIN salaries s ON s.emp_no = e.emp_no AND s.salary > 5000
+        --// 순수하게 INNER JOIN으로 표현한 쿼리
+        SELECT * 
+        FROM employees e
+            INNER JOIN salaries s ON s.emp_no = e.emp_no
+        WHERE s.salaries > 5000;
+        ```
+      - 카테시안 조인  
+        카테시안 조인은 FULL JOIN or CROSS JOIN 이라고도 한다. 조인 조건 자체가 없이 2개 테이블의 모든 레코드 조합을 결과로 가져오는 조인방식이다. SQL 표준에서 CROSS JOIN 은 카테시안 조인방식을 의미하지만, Mysql에서 CROSS JOIN은 INNER JOIN과 같은 조인 방식을 의미한다. 
+      - NATURAL JOIN  
+        INNER JOIN 과 같은 결과를 가져오지만 표현방법이 조금 다른 조인방법 중 하나다. NATURAL JOIN 은 조인 조건을 명시하지 않아도 된다는 편리함이 있지만 사실 각 테이블의 칼럼 이름에 의해 쿼리가 자동으로 변경될 수 있다는 문제가 있다. 
+      - Single-sweep multi join  
+        네스티드-루프 조인을 부르는 표현이다.
+      - 조인 버퍼를 이용한 조인(Using join buffer)  
+        조인은 드라이빙 테이블에서 일치하는 레코드의 건수만큼 드리븐 테이블을 검색하면서 처리된다. 즉, 드라이빙 테이블은 한번에 쭉 읽게되지만 드리븐 테이블은 여러번 읽는다는 것을 의미한다. 어떤 방식으로도 드리븐 테이블의 풀 테이블 스캔이나 인덱스 풀 스캔을 피할 수 없다면 옵티마이저는 드라이빙 테이블에서 읽은 레코드를 메모리에 캐시한 후 드리븐 테이블과 메모리 캐시를 조인하는 형태로 처리한다. 이때 사용되는 메모리의 캐시를 조인버퍼(join buffer)이라고 한다.  
+  - 조인관련 주의사항  
+    특별히 주의해야할 부분은 "실행 결과의 정렬 순서 "와 "INNER JOIN과 OUTER JOIN 의 선택"이다.
+    - 조인 실행 결과의 정렬 순서  
+      일반적으로 조인으로 쿼리가 실행되는 경우, 드라이빙 테이블로부터 레코드를 읽는 순서가 전체 쿼리의 결과 순서에 그대로 적용되는 것이 일반적이다. 정렬된 결과가 반환되기를 바란다면 반드시 order by 절을 추가해서 정렬을 보장될 수 있게 하자. order by 절이 쿼리에 명시됐다고 해서 옵티마이저는 항상 정렬작업을 수행하는 것이 아니다. 실행계획상에서 이 순서를 보장할 수 있다면 옵티마이저가 자동으로 별도의 정렬 작업을 생략하고 결과를 반환한다. SQL 쿼리에서 결과의 정렬을 보장하는 방법은 ORDER BY 절을 사용하는 것 밖에는 없다는 사실을 잊지말자.
+    - INNER JOIN 과 OUTER JOIN 의 선택  
+      inner join은 양쪽 테이블에 모두 레코드가 존재하는 경우에만 레코드가 반환된다. 하지만 outer join은 아우터 테이블이 존재하면 레코드가 반환된다. 쿼리나 테이블의 구조를 살펴보면 outer join 을 사용하지 않아도 될 것을 사용할 때가 많다. 때로는 반대로 outer join을 실행하면 쿼리의 처리가 느려진다고 생각하고 억지로 inner join으로 쿼리를 작성할 때도 있다. 두 조인 방식의 선택은 성능을 고려해서 선택할 것이 아니라 업무 요건에 따라 선택하는 것이 바람직하다. 
+

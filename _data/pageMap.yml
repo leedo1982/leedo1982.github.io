@@ -1068,7 +1068,15 @@ Mysql_6_3_mysql_main_process:
     summary: ""
     parent: REAL_MYSQL
     url: /wiki/Mysql_6_3_mysql_main_process
-    updated: '2020-12-31 07:57:32 +0900'
+    updated: '2021-01-01 10:42:42 +0900'
+    children: []
+Mysql_6_4_mysql_plan_attention:
+    type: wiki
+    title: '실행 계획 분석시 주의사항'
+    summary: ""
+    parent: REAL_MYSQL
+    url: /wiki/Mysql_6_4_mysql_plan_attention
+    updated: '2021-01-01 11:01:21 +0900'
     children: []
 Nesting:
     type: wiki
@@ -1188,8 +1196,8 @@ REAL_MYSQL:
     summary: ""
     parent: index
     url: /wiki/REAL_MYSQL
-    updated: '2020-12-29 06:52:14 +0900'
-    children: [Mysql_3_1_innodb_Arch, Mysql_3_1_mysql_Arch, Mysql_3_3_myisam_Arch, Mysql_3_8_mysql_log_file, Mysql_4_1_transaction, Mysql_4_2_mysql_lock_of_engine, Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb, Mysql_5_1_disk_read_type, Mysql_5_10_unique_index, Mysql_5_11_foreign_key, Mysql_5_12_etc, Mysql_5_2_index, Mysql_5_3_b_tree, Mysql_5_4_hash_index, Mysql_5_5_r_tree_index, Mysql_5_6_fractal_tree_index, Mysql_5_7_full_test_search_index, Mysql_5_8_bitmap_index, Mysql_5_9_clustering_index, Mysql_6_1_summary, Mysql_6_2_plan_analysis, Mysql_6_3_mysql_main_process]
+    updated: '2021-01-01 11:00:57 +0900'
+    children: [Mysql_3_1_innodb_Arch, Mysql_3_1_mysql_Arch, Mysql_3_3_myisam_Arch, Mysql_3_8_mysql_log_file, Mysql_4_1_transaction, Mysql_4_2_mysql_lock_of_engine, Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb, Mysql_5_1_disk_read_type, Mysql_5_10_unique_index, Mysql_5_11_foreign_key, Mysql_5_12_etc, Mysql_5_2_index, Mysql_5_3_b_tree, Mysql_5_4_hash_index, Mysql_5_5_r_tree_index, Mysql_5_6_fractal_tree_index, Mysql_5_7_full_test_search_index, Mysql_5_8_bitmap_index, Mysql_5_9_clustering_index, Mysql_6_1_summary, Mysql_6_2_plan_analysis, Mysql_6_3_mysql_main_process, Mysql_6_4_mysql_plan_attention]
 REAL_UML:
     type: wiki
     title: 'UML 실전에서는 이것만 쓴다.'
