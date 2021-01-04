@@ -3,7 +3,7 @@ layout  : wiki
 title   : Real Mysql
 summary : 
 date    : 2020-10-09 21:02:56 +0900
-updated : 2021-01-01 11:00:57 +0900
+updated : 2021-01-05 07:11:40 +0900
 tag     : sql db 
 toc     : true
 public  : true
@@ -42,4 +42,6 @@ latex   : true
     * [X] 2020-12-22  6.2 [[Mysql_6_2_plan_analysis]]{실행계획 분석 }
     * [X] 2021-01-01  6.3 [[Mysql_6_3_mysql_main_process]]{주요 처리방식 }
     * [X] 2021-01-01  6.4 [[Mysql_6_4_mysql_plan_attention]]{실행계획 분석시 주의사항 }
+* [X] 07 쿼리작성 및 최적화
+    * [X] 2021-01-05  7.1 [[Mysql_7_1_query_n_system]]{쿼리와 연관된 시스템 설정 }
 
