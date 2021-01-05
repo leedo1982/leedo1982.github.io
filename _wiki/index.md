@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : wiki
 date    : 2017-11-26 21:38:36 +0900
-updated : 2020-12-22 07:40:49 +0900
+updated : 2021-01-06 08:10:10 +0900
 tags    : index
 toc     : true
 public  : true
@@ -12,7 +12,7 @@ comment : false
 
 
 * Book
-    * [[2020_BOOK]]
+    * [[2021_BOOK]]
         * [[REAL_MYSQL]]
 
 * WIP

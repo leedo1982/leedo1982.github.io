@@ -94,6 +94,14 @@
     url: /wiki/2020_BOOK_LIST
     updated: '2020-07-21 12:53:09 +0900'
     children: []
+2021_BOOK:
+    type: wiki
+    title: '2021 BOOK LIST'
+    summary: ""
+    parent: ""
+    url: /wiki/2021_BOOK
+    updated: '2021-01-06 07:54:30 +0900'
+    children: []
 배민다움:
     type: wiki
     title: 배민다움
@@ -460,7 +468,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2020-12-22 07:40:49 +0900'
+    updated: '2021-01-06 08:10:10 +0900'
     children: []
 ITEM14:
     type: wiki
@@ -1086,6 +1094,14 @@ Mysql_7_1_query_n_system:
     url: /wiki/Mysql_7_1_query_n_system
     updated: '2021-01-05 07:40:50 +0900'
     children: []
+Mysql_7_2_how_to_read_sql:
+    type: wiki
+    title: '매뉴얼의 SQL 문법 표기를 읽는 방법'
+    summary: ""
+    parent: REAL_MYSQL
+    url: /wiki/Mysql_7_2_how_to_read_sql
+    updated: '2021-01-06 08:09:26 +0900'
+    children: []
 Nesting:
     type: wiki
     title: Nesting
@@ -1204,8 +1220,8 @@ REAL_MYSQL:
     summary: ""
     parent: index
     url: /wiki/REAL_MYSQL
-    updated: '2021-01-05 07:11:40 +0900'
-    children: [Mysql_3_1_innodb_Arch, Mysql_3_1_mysql_Arch, Mysql_3_3_myisam_Arch, Mysql_3_8_mysql_log_file, Mysql_4_1_transaction, Mysql_4_2_mysql_lock_of_engine, Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb, Mysql_5_1_disk_read_type, Mysql_5_10_unique_index, Mysql_5_11_foreign_key, Mysql_5_12_etc, Mysql_5_2_index, Mysql_5_3_b_tree, Mysql_5_4_hash_index, Mysql_5_5_r_tree_index, Mysql_5_6_fractal_tree_index, Mysql_5_7_full_test_search_index, Mysql_5_8_bitmap_index, Mysql_5_9_clustering_index, Mysql_6_1_summary, Mysql_6_2_plan_analysis, Mysql_6_3_mysql_main_process, Mysql_6_4_mysql_plan_attention, Mysql_7_1_query_n_system]
+    updated: '2021-01-06 07:55:36 +0900'
+    children: [Mysql_3_1_innodb_Arch, Mysql_3_1_mysql_Arch, Mysql_3_3_myisam_Arch, Mysql_3_8_mysql_log_file, Mysql_4_1_transaction, Mysql_4_2_mysql_lock_of_engine, Mysql_4_3_lock_of_myisam_memory, Mysql_4_4_lock_of_innodb, Mysql_5_1_disk_read_type, Mysql_5_10_unique_index, Mysql_5_11_foreign_key, Mysql_5_12_etc, Mysql_5_2_index, Mysql_5_3_b_tree, Mysql_5_4_hash_index, Mysql_5_5_r_tree_index, Mysql_5_6_fractal_tree_index, Mysql_5_7_full_test_search_index, Mysql_5_8_bitmap_index, Mysql_5_9_clustering_index, Mysql_6_1_summary, Mysql_6_2_plan_analysis, Mysql_6_3_mysql_main_process, Mysql_6_4_mysql_plan_attention, Mysql_7_1_query_n_system, Mysql_7_2_how_to_read_sql]
 REAL_UML:
     type: wiki
     title: 'UML 실전에서는 이것만 쓴다.'
