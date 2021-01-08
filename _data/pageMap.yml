@@ -302,6 +302,14 @@ Domain:
     url: /wiki/Domain
     updated: '2019-02-09 11:10:42 +0900'
     children: []
+DOMAIN_DRIVE_DESIGN_DISTILLED:
+    type: wiki
+    title: '도메인 주도 설계 핵심'
+    summary: ""
+    parent: ""
+    url: /wiki/DOMAIN_DRIVE_DESIGN_DISTILLED
+    updated: '2021-01-08 17:55:22 +0900'
+    children: []
 Domain_Driven_Design:
     type: wiki
     title: '도메인 주도 설계'
@@ -326,6 +334,14 @@ EFFECTIVE_JAVA:
     url: /wiki/EFFECTIVE_JAVA
     updated: '2019-05-30 09:36:53 +0900'
     children: [ITEM14, ITEM15, ITEM16, ITEM17, ITEM18, ITEM19, ITEM20, ITEM21, ITEM22, ITEM23, ITEM24, ITEM25, ITEM26, ITEM27, ITEM28, ITEM29, ITEM30, ITEM31, ITEM32, ITEM33, ITEM34, ITEM35, ITEM36, ITEM37, ITEM38, ITEM39, ITEM40, ITEM41, ITEM42, ITEM43, ITEM44, ITEM45, ITEM46, ITEM47, ITEM48, ITEM49, ITEM50, ITEM51, ITEM52, ITEM53, ITEM54, ITEM55, ITEM57, ITEM58]
+ELEGANT_OBJECT:
+    type: wiki
+    title: '엘레강트 오브젝트'
+    summary: ""
+    parent: ""
+    url: /wiki/ELEGANT_OBJECT
+    updated: '2021-01-08 17:57:20 +0900'
+    children: []
 ENTITY:
     type: wiki
     title: Entity
@@ -468,7 +484,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2021-01-06 08:10:10 +0900'
+    updated: '2021-01-08 17:57:23 +0900'
     children: []
 ITEM14:
     type: wiki
