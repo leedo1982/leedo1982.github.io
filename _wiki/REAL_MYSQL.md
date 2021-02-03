@@ -3,7 +3,7 @@ layout  : wiki
 title   : Real Mysql
 summary : 
 date    : 2020-10-09 21:02:56 +0900
-updated : 2021-01-06 07:55:36 +0900
+updated : 2021-02-04 07:49:21 +0900
 tag     : sql db 
 toc     : true
 public  : true
@@ -45,4 +45,5 @@ latex   : true
 * [X] 07 쿼리작성 및 최적화
     * [X] 2021-01-05  7.1 [[Mysql_7_1_query_n_system]]{쿼리와 연관된 시스템 설정 }
     * [X] 2021-01-06  7.2 [[Mysql_7_2_how_to_read_sql]]{매뉴얼의 SQL 문법 표기를 읽는 방법 }
+    * [X] 2021-02-04  7.3 [[Mysql_7_3_operator_function]]{Mysql 연산자와 내장 함수  }
 
